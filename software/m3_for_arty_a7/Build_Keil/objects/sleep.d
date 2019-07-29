@@ -1,0 +1,17 @@
+.\objects\sleep.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\sleep.c
+.\objects\sleep.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\sleep.h
+.\objects\sleep.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_types.h
+.\objects\sleep.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sleep.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\sleep.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_io.h
+.\objects\sleep.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_printf.h
+.\objects\sleep.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\sleep.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\sleep.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\sleep.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h
+.\objects\sleep.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\bspconfig.h
+.\objects\sleep.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xpseudo_asm.h
+.\objects\sleep.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xreg_cortexm3.h
+.\objects\sleep.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h
+.\objects\sleep.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h
+.\objects\sleep.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xtime_l.h

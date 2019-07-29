@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER char_recongize_5thing
+	OPTION supported_peripherals = (char_recongize_5thing);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = char_recongize_5thing;
+END DRIVER

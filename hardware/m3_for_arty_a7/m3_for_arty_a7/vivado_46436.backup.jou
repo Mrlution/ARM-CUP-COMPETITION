@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jul 16 19:41:11 2019
+# Process ID: 46436
+# Current directory: V:/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent49824 V:\hardware\m3_for_arty_a7\m3_for_arty_a7\m3_for_arty_a7.xpr
+# Log file: V:/hardware/m3_for_arty_a7/m3_for_arty_a7/vivado.log
+# Journal file: V:/hardware/m3_for_arty_a7/m3_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.xpr
+update_compile_order -fileset sources_1
+open_bd_design {V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:Vertical_Projection:1.0 [get_ips  m3_for_arty_a7_Vertical_Projection_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips m3_for_arty_a7_Vertical_Projection_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd]
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_axi_bram_ctrl_0_0] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_axi_protocol_convert_0_0] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_DAPLink_to_Arty_shield_0_0] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_mig_7series_0_2] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_Vertical_Projection_0_0] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_binary_image_etch_0_0] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_binary_image_swell_0_0] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_binary_image_etch_1_1] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_auto_pc_11] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_auto_pc_10] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_auto_pc_9] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_auto_pc_8] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_auto_pc_7] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_auto_pc_6] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_auto_pc_5] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_auto_pc_4] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_auto_pc_3] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_auto_pc_2] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_auto_pc_1] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all m3_for_arty_a7_auto_pc_12] }
+export_ip_user_files -of_objects [get_files V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd]
+launch_runs -jobs 8 {m3_for_arty_a7_DAPLink_to_Arty_shield_0_0_synth_1 m3_for_arty_a7_display_lpr_boundary_0_0_synth_1 m3_for_arty_a7_binary_image_etch_0_0_synth_1 m3_for_arty_a7_binary_image_swell_0_0_synth_1 m3_for_arty_a7_binary_image_etch_1_1_synth_1}
+export_simulation -of_objects [get_files V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -directory V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files/sim_scripts -ip_user_files_dir V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files -ipstatic_source_dir V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files/ipstatic -lib_map_path [list {modelsim=V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/modelsim} {questa=V:/precompiled_sim_libs} {riviera=V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/riviera} {activehdl=V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -top
+make_wrapper -files [get_files V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -top
+generate_target all [get_files  V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd]
+export_ip_user_files -of_objects [get_files V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd]
+launch_runs -jobs 8 {m3_for_arty_a7_binary_image_etch_0_0_synth_1 m3_for_arty_a7_binary_image_swell_0_0_synth_1 m3_for_arty_a7_binary_image_etch_1_1_synth_1}
+export_simulation -of_objects [get_files V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -directory V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files/sim_scripts -ip_user_files_dir V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files -ipstatic_source_dir V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files/ipstatic -lib_map_path [list {modelsim=V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/modelsim} {questa=V:/precompiled_sim_libs} {riviera=V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/riviera} {activehdl=V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+reset_run m3_for_arty_a7_binary_image_etch_0_0_synth_1
+reset_run m3_for_arty_a7_binary_image_swell_0_0_synth_1
+reset_run m3_for_arty_a7_binary_image_etch_1_1_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+ipx::edit_ip_in_project -upgrade true -name binary_image_etch_v1_0_project -directory V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_etch_v1_0_project v:/vivado/Arm_ipi_repository/binary_image_etch/component.xml
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 [get_ips  img_ram] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips img_ram] -no_script -sync -force -quiet
+generate_target all [get_files  v:/vivado/Arm_ipi_repository/binary_image_etch/src/img_ram/img_ram.xci]
+catch { config_ip_cache -export [get_ips -all img_ram] }
+export_ip_user_files -of_objects [get_files v:/vivado/Arm_ipi_repository/binary_image_etch/src/img_ram/img_ram.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] v:/vivado/Arm_ipi_repository/binary_image_etch/src/img_ram/img_ram.xci]
+launch_runs -jobs 8 img_ram_synth_1
+export_simulation -of_objects [get_files v:/vivado/Arm_ipi_repository/binary_image_etch/src/img_ram/img_ram.xci] -directory v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_etch_v1_0_project/binary_image_etch_v1_0_project.ip_user_files/sim_scripts -ip_user_files_dir v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_etch_v1_0_project/binary_image_etch_v1_0_project.ip_user_files -ipstatic_source_dir v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_etch_v1_0_project/binary_image_etch_v1_0_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_etch_v1_0_project/binary_image_etch_v1_0_project.cache/compile_simlib/modelsim} {questa=v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_etch_v1_0_project/binary_image_etch_v1_0_project.cache/compile_simlib/questa} {riviera=v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_etch_v1_0_project/binary_image_etch_v1_0_project.cache/compile_simlib/riviera} {activehdl=v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_etch_v1_0_project/binary_image_etch_v1_0_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+close_project
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip [get_ips  {m3_for_arty_a7_binary_image_etch_1_1 m3_for_arty_a7_binary_image_etch_0_0 m3_for_arty_a7_binary_image_etch_1_0}] -log ip_upgrade.log

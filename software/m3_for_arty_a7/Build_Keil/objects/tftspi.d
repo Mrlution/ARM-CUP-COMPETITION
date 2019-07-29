@@ -1,0 +1,27 @@
+.\objects\tftspi.o: ..\tft-spi\tftspi.c
+.\objects\tftspi.o: ..\tft-spi\tftspi.h
+.\objects\tftspi.o: ..\gpio\gpio.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h
+.\objects\tftspi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tftspi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio_l.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h
+.\objects\tftspi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\tftspi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\tftspi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h
+.\objects\tftspi.o: ..\LICENSE PLATE RECOGNITION\position.h
+.\objects\tftspi.o: ..\uart\uart.h
+.\objects\tftspi.o: ..\spi\spi.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xspi.h
+.\objects\tftspi.o: ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xspi_l.h
+.\objects\tftspi.o: ..\tft-spi\font.h
+.\objects\tftspi.o: ..\tft-spi\image.h

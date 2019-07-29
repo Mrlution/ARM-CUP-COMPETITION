@@ -1,0 +1,735 @@
+Dependencies for Project 'm3_for_arty_a7', Target 'm3_for_arty_a7': (DO NOT MODIFY !)
+F (..\cmsis\Device\Source\ARTY_CM3\system_ARTY_CM3.c)(0x5BD9743D)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\system_arty_cm3.o --omf_browse .\objects\system_arty_cm3.crf --depend .\objects\system_arty_cm3.d)
+I (..\cmsis\Device\Include\ARTY_CM3\ARTY_CM3.h)(0x5BD9743D)
+I (..\cmsis\CMSIS\Include\core_CM3.h)(0x5BD9743D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\cmsis\CMSIS\Include\core_cmInstr.h)(0x5BD9743D)
+I (..\cmsis\CMSIS\Include\core_cmFunc.h)(0x5BD9743D)
+I (..\cmsis\Device\Include\ARTY_CM3\system_ARTY_CM3.h)(0x5BD9743D)
+F (..\cmsis\Device\Source\ARTY_CM3\ARM\startup_ARTY_CM3.s)(0x5BD9742F)(--cpu Cortex-M3 --li -g --apcs=interwork -I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "ARMCM3 SETA 1"--list .\objects\startup_arty_cm3.lst --xref -o .\objects\startup_arty_cm3.o --depend .\objects\startup_arty_cm3.d)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\outbyte.c)(0x5CFCA582)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\outbyte.o --omf_browse .\objects\outbyte.crf --depend .\objects\outbyte.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite_l.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\print.c)(0x5BD97425)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\print.o --omf_browse .\objects\print.crf --depend .\objects\print.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_printf.h)(0x5BD97424)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_types.h)(0x5BD97425)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\bspconfig.h)(0x5CFCA583)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_assert.c)(0x5BD97424)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xil_assert.o --omf_browse .\objects\xil_assert.crf --depend .\objects\xil_assert.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_types.h)(0x5BD97425)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_assert.h)(0x5CFCA5CA)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_printf.c)(0x5BD97424)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xil_printf.o --omf_browse .\objects\xil_printf.crf --depend .\objects\xil_printf.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_printf.h)(0x5BD97424)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_types.h)(0x5BD97425)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\bspconfig.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_assert.h)(0x5CFCA5CA)
+F (..\main\main.c)(0x5D2ED8D0)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\time.h)(0x599ECD2E)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio_l.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xaxivdma.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xaxivdma_hw.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xaxivdma_i.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xdebug.h)(0x5CFCA584)
+I (..\VDMA\vdma.h)(0x5CB413D4)
+I (..\main\m3_for_arty.h)(0x5BD9743D)
+I (..\cmsis\Device\Include\peripherallink.h)(0x5BD9743D)
+I (..\cmsis\Device\Include\ARTY_CM3\ARTY_CM3.h)(0x5BD9743D)
+I (..\cmsis\CMSIS\Include\core_CM3.h)(0x5BD9743D)
+I (..\cmsis\CMSIS\Include\core_cmInstr.h)(0x5BD9743D)
+I (..\cmsis\CMSIS\Include\core_cmFunc.h)(0x5BD9743D)
+I (..\cmsis\Device\Include\ARTY_CM3\system_ARTY_CM3.h)(0x5BD9743D)
+I (..\gpio\gpio.h)(0x5D2ECD6A)
+I (..\LICENSE PLATE RECOGNITION\position.h)(0x5D2C2EC9)
+I (..\uart\uart.h)(0x5BD9743D)
+I (..\spi\spi.h)(0x5BD9743D)
+I (..\LICENSE PLATE RECOGNITION\recognition.h)(0x5D2ED015)
+I (..\tft-spi\tftspi.h)(0x5CFD15AC)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xspi.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xspi_l.h)(0x5CFCA584)
+I (..\LICENSE PLATE RECOGNITION\study.h)(0x5D2C520A)
+F (..\gpio\gpio.c)(0x5D2ECD88)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (..\gpio\gpio.h)(0x5D2ECD6A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio_l.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\LICENSE PLATE RECOGNITION\position.h)(0x5D2C2EC9)
+I (..\uart\uart.h)(0x5BD9743D)
+I (..\cmsis\Device\Include\peripherallink.h)(0x5BD9743D)
+I (..\cmsis\Device\Include\ARTY_CM3\ARTY_CM3.h)(0x5BD9743D)
+I (..\cmsis\CMSIS\Include\core_CM3.h)(0x5BD9743D)
+I (..\cmsis\CMSIS\Include\core_cmInstr.h)(0x5BD9743D)
+I (..\cmsis\CMSIS\Include\core_cmFunc.h)(0x5BD9743D)
+I (..\cmsis\Device\Include\ARTY_CM3\system_ARTY_CM3.h)(0x5BD9743D)
+F (..\spi\spi.c)(0x5BD9743D)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\main\m3_for_arty.h)(0x5BD9743D)
+I (..\cmsis\Device\Include\peripherallink.h)(0x5BD9743D)
+I (..\cmsis\Device\Include\ARTY_CM3\ARTY_CM3.h)(0x5BD9743D)
+I (..\cmsis\CMSIS\Include\core_CM3.h)(0x5BD9743D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\cmsis\CMSIS\Include\core_cmInstr.h)(0x5BD9743D)
+I (..\cmsis\CMSIS\Include\core_cmFunc.h)(0x5BD9743D)
+I (..\cmsis\Device\Include\ARTY_CM3\system_ARTY_CM3.h)(0x5BD9743D)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xspi.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xspi_l.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\uart\uart.c)(0x5BD9743D)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\main\m3_for_arty.h)(0x5BD9743D)
+I (..\cmsis\Device\Include\peripherallink.h)(0x5BD9743D)
+I (..\cmsis\Device\Include\ARTY_CM3\ARTY_CM3.h)(0x5BD9743D)
+I (..\cmsis\CMSIS\Include\core_CM3.h)(0x5BD9743D)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\cmsis\CMSIS\Include\core_cmInstr.h)(0x5BD9743D)
+I (..\cmsis\CMSIS\Include\core_cmFunc.h)(0x5BD9743D)
+I (..\cmsis\Device\Include\ARTY_CM3\system_ARTY_CM3.h)(0x5BD9743D)
+I (..\uart\uart.h)(0x5BD9743D)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio.c)(0x5B230647)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xgpio.o --omf_browse .\objects\xgpio.crf --depend .\objects\xgpio.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio.h)(0x5B230647)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio_l.h)(0x5B230647)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio_extra.c)(0x5B230647)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xgpio_extra.o --omf_browse .\objects\xgpio_extra.crf --depend .\objects\xgpio_extra.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio.h)(0x5B230647)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio_l.h)(0x5B230647)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio_i.h)(0x5B230647)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio_g.c)(0x5CFCA583)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xgpio_g.o --omf_browse .\objects\xgpio_g.crf --depend .\objects\xgpio_g.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio.h)(0x5B230647)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio_l.h)(0x5B230647)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio_intr.c)(0x5B230647)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xgpio_intr.o --omf_browse .\objects\xgpio_intr.crf --depend .\objects\xgpio_intr.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio.h)(0x5B230647)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio_l.h)(0x5B230647)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio_selftest.c)(0x5B230647)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xgpio_selftest.o --omf_browse .\objects\xgpio_selftest.crf --depend .\objects\xgpio_selftest.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio.h)(0x5B230647)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio_l.h)(0x5B230647)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio_sinit.c)(0x5B230647)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xgpio_sinit.o --omf_browse .\objects\xgpio_sinit.crf --depend .\objects\xgpio_sinit.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio_i.h)(0x5B230647)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio.h)(0x5B230647)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_3\src\xgpio_l.h)(0x5B230647)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi.c)(0x5B230649)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xspi.o --omf_browse .\objects\xspi.crf --depend .\objects\xspi.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi.h)(0x5B230649)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_l.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_i.h)(0x5B230649)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_g.c)(0x5CFCA583)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xspi_g.o --omf_browse .\objects\xspi_g.crf --depend .\objects\xspi_g.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi.h)(0x5B230649)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_l.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_options.c)(0x5B23064A)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xspi_options.o --omf_browse .\objects\xspi_options.crf --depend .\objects\xspi_options.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi.h)(0x5B230649)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_l.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_i.h)(0x5B230649)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_selftest.c)(0x5B23064A)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xspi_selftest.o --omf_browse .\objects\xspi_selftest.crf --depend .\objects\xspi_selftest.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi.h)(0x5B230649)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_l.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_i.h)(0x5B230649)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_sinit.c)(0x5B23064A)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xspi_sinit.o --omf_browse .\objects\xspi_sinit.crf --depend .\objects\xspi_sinit.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi.h)(0x5B230649)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_l.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_stats.c)(0x5B23064A)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xspi_stats.o --omf_browse .\objects\xspi_stats.crf --depend .\objects\xspi_stats.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi.h)(0x5B230649)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_l.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_4\src\xspi_i.h)(0x5B230649)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.c)(0x5B23064A)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite.o --omf_browse .\objects\xuartlite.crf --depend .\objects\xuartlite.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_g.c)(0x5CFCA583)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite_g.o --omf_browse .\objects\xuartlite_g.crf --depend .\objects\xuartlite_g.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_intr.c)(0x5B23064A)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite_intr.o --omf_browse .\objects\xuartlite_intr.crf --depend .\objects\xuartlite_intr.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.c)(0x5B23064A)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite_l.o --omf_browse .\objects\xuartlite_l.crf --depend .\objects\xuartlite_l.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_selftest.c)(0x5B23064A)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite_selftest.o --omf_browse .\objects\xuartlite_selftest.crf --depend .\objects\xuartlite_selftest.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_sinit.c)(0x5B23064A)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite_sinit.o --omf_browse .\objects\xuartlite_sinit.crf --depend .\objects\xuartlite_sinit.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_stats.c)(0x5B23064A)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite_stats.o --omf_browse .\objects\xuartlite_stats.crf --depend .\objects\xuartlite_stats.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x5B23064A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\VDMA\vdma_api.c)(0x5CFA2EBD)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\vdma_api.o --omf_browse .\objects\vdma_api.crf --depend .\objects\vdma_api.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xaxivdma.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xaxivdma_hw.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xaxivdma_i.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xdebug.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_exception.h)(0x5CD3E78D)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma.c)(0x5B230644)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xaxivdma.o --omf_browse .\objects\xaxivdma.crf --depend .\objects\xaxivdma.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_hw.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_i.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xdebug.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_channel.c)(0x5CFCA5D4)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xaxivdma_channel.o --omf_browse .\objects\xaxivdma_channel.crf --depend .\objects\xaxivdma_channel.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_hw.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_i.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xdebug.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma.h)(0x5B230644)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_g.c)(0x5CFCA583)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xaxivdma_g.o --omf_browse .\objects\xaxivdma_g.crf --depend .\objects\xaxivdma_g.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_hw.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_i.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xdebug.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_selftest.c)(0x5B230644)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xaxivdma_selftest.o --omf_browse .\objects\xaxivdma_selftest.crf --depend .\objects\xaxivdma_selftest.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_hw.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_i.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xdebug.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_intr.c)(0x5B230644)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xaxivdma_intr.o --omf_browse .\objects\xaxivdma_intr.crf --depend .\objects\xaxivdma_intr.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_hw.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_i.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xdebug.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_sinit.c)(0x5B230644)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\xaxivdma_sinit.o --omf_browse .\objects\xaxivdma_sinit.crf --depend .\objects\xaxivdma_sinit.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_hw.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xaxivdma_i.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\axivdma_v6_5\src\xdebug.h)(0x5B230644)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+F (..\LICENSE PLATE RECOGNITION\recognition.c)(0x5D2ED99A)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\recognition.o --omf_browse .\objects\recognition.crf --depend .\objects\recognition.d)
+I (..\LICENSE PLATE RECOGNITION\recognition.h)(0x5D2ED015)
+I (..\uart\uart.h)(0x5BD9743D)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\gpio\gpio.h)(0x5D2ECD6A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio_l.h)(0x5CFCA584)
+I (..\LICENSE PLATE RECOGNITION\position.h)(0x5D2C2EC9)
+I (..\tft-spi\tftspi.h)(0x5CFD15AC)
+I (..\spi\spi.h)(0x5BD9743D)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xspi.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xspi_l.h)(0x5CFCA584)
+F (..\LICENSE PLATE RECOGNITION\position.c)(0x5D2C3924)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\position.o --omf_browse .\objects\position.crf --depend .\objects\position.d)
+I (..\LICENSE PLATE RECOGNITION\position.h)(0x5D2C2EC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+F (..\LICENSE PLATE RECOGNITION\study.c)(0x5D2EC105)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\study.o --omf_browse .\objects\study.crf --depend .\objects\study.d)
+I (..\LICENSE PLATE RECOGNITION\study.h)(0x5D2C520A)
+I (..\uart\uart.h)(0x5BD9743D)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\LICENSE PLATE RECOGNITION\recognition.h)(0x5D2ED015)
+I (..\gpio\gpio.h)(0x5D2ECD6A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio_l.h)(0x5CFCA584)
+I (..\LICENSE PLATE RECOGNITION\position.h)(0x5D2C2EC9)
+F (..\tft-spi\tftspi.c)(0x5D2ED84E)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\iic -I ..\camera -I ..\VDMA -I "..\LICENSE PLATE RECOGNITION" -I ..\tft-spi-I.\RTE\_m3_for_arty_a7-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3 -DCORTEX_M3 -DARTY_CM3-o .\objects\tftspi.o --omf_browse .\objects\tftspi.crf --depend .\objects\tftspi.d)
+I (..\tft-spi\tftspi.h)(0x5CFD15AC)
+I (..\gpio\gpio.h)(0x5D2ECD6A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x5CFCA5CA)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio_l.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x5CFCA584)
+I (D:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x5CFCA583)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5BD97421)
+I (..\LICENSE PLATE RECOGNITION\position.h)(0x5D2C2EC9)
+I (..\uart\uart.h)(0x5BD9743D)
+I (..\spi\spi.h)(0x5BD9743D)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xspi.h)(0x5CFCA584)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xspi_l.h)(0x5CFCA584)
+I (..\tft-spi\font.h)(0x5CFA119E)
+I (..\tft-spi\image.h)(0x5CFA11DA)

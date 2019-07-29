@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="m3_for_arty_a7_DAPLink_to_Arty_shield_0_0_synth_1" LaunchDir="D:/Users/Arthur/Desktop/Arm/AT426-BU-98000-r0p0-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.runs/m3_for_arty_a7_DAPLink_to_Arty_shield_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="m3_for_arty_a7_I2C_OV5640_Init_RGB5_0_0_synth_1" LaunchDir="D:/Users/Arthur/Desktop/Arm/AT426-BU-98000-r0p0-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.runs/m3_for_arty_a7_I2C_OV5640_Init_RGB5_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="m3_for_arty_a7_display_lpr_boundary_0_0_synth_1" LaunchDir="D:/Users/Arthur/Desktop/Arm/AT426-BU-98000-r0p0-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.runs/m3_for_arty_a7_display_lpr_boundary_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

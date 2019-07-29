@@ -1,0 +1,24 @@
+vhdl xil_defaultlib  \
+"../../../../../block_diagram/ip/m3_for_arty_a7_axi_bram_ctrl_0_0/sim/m3_for_arty_a7_axi_bram_ctrl_0_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_axi_gpio_1_0/sim/m3_for_arty_a7_axi_gpio_1_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_axi_quad_spi_0_0/sim/m3_for_arty_a7_axi_quad_spi_0_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_axi_uartlite_0_0/sim/m3_for_arty_a7_axi_uartlite_0_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_axi_single_spi_0_0/sim/m3_for_arty_a7_axi_single_spi_0_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_axi_quad_spi_0_1/sim/m3_for_arty_a7_axi_quad_spi_0_1.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_axi_xip_quad_spi_0_0/sim/m3_for_arty_a7_axi_xip_quad_spi_0_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_axi_gpio_0_1/sim/m3_for_arty_a7_axi_gpio_0_1.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_proc_sys_reset_DAPLink_0/sim/m3_for_arty_a7_proc_sys_reset_DAPLink_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_proc_sys_reset_base_0/sim/m3_for_arty_a7_proc_sys_reset_base_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_axi_vdma_0_0/sim/m3_for_arty_a7_axi_vdma_0_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_v_tc_0_0/sim/m3_for_arty_a7_v_tc_0_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_proc_sys_reset_0_0/sim/m3_for_arty_a7_proc_sys_reset_0_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_0834_psr0_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_smartconnect_0_0/bd_0/ip/ip_2/sim/bd_0834_psr_aclk_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_smartconnect_0_0/bd_0/ip/ip_3/sim/bd_0834_psr_aclk1_0.vhd" \
+"../../../../../block_diagram/ipshared/69dc/src/rgb2vga.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_rgb2vga_0_0/sim/m3_for_arty_a7_rgb2vga_0_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_axi_gpio_0_0/sim/m3_for_arty_a7_axi_gpio_0_0.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_axi_gpio_0_2/sim/m3_for_arty_a7_axi_gpio_0_2.vhd" \
+"../../../../../block_diagram/ip/m3_for_arty_a7_axi_quad_spi_1_0/sim/m3_for_arty_a7_axi_quad_spi_1_0.vhd" \
+
+nosort

@@ -1,0 +1,561 @@
+
+*** Running vivado
+    with args -log m3_for_arty_a7_Vertical_Projection8_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source m3_for_arty_a7_Vertical_Projection8_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source m3_for_arty_a7_Vertical_Projection8_0_0.tcl -notrace
+Command: synth_design -top m3_for_arty_a7_Vertical_Projection8_0_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15156 
+WARNING: [Synth 8-2507] parameter declaration becomes local in Vertical_Projection8 with formal parameter declaration list [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:44]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Vertical_Projection8 with formal parameter declaration list [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:45]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Vertical_Projection8 with formal parameter declaration list [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:46]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Vertical_Projection8 with formal parameter declaration list [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:47]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Vertical_Projection8 with formal parameter declaration list [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:48]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 481.922 ; gain = 112.270
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'm3_for_arty_a7_Vertical_Projection8_0_0' [v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_Vertical_Projection8_0_0/synth/m3_for_arty_a7_Vertical_Projection8_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'Vertical_Projection8' [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:7]
+	Parameter IMG_WIDTH_LINE bound to: 640 - type: integer 
+	Parameter IMG_WIDTH_DATA bound to: 8 - type: integer 
+	Parameter IDLE bound to: 5'b00001 
+	Parameter FRAME1 bound to: 5'b00010 
+	Parameter FRAME2 bound to: 5'b00100 
+	Parameter FRAME3 bound to: 5'b01000 
+	Parameter FRAME4 bound to: 5'b10000 
+INFO: [Synth 8-155] case statement is not full and has no default [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:200]
+INFO: [Synth 8-155] case statement is not full and has no default [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:275]
+INFO: [Synth 8-638] synthesizing module 'vp_ram' [v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_Vertical_Projection8_0_0/src/vp_ram/synth/vp_ram.vhd:71]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: vp_ram.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 1 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 1 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 1920 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 1920 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 11 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 1 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 1 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 1920 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 1920 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 11 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 1 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.968537 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_1' declared at 'v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_Vertical_Projection8_0_0/src/vp_ram/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195313' bound to instance 'U0' of component 'blk_mem_gen_v8_4_1' [v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_Vertical_Projection8_0_0/src/vp_ram/synth/vp_ram.vhd:237]
+INFO: [Synth 8-256] done synthesizing module 'vp_ram' (9#1) [v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_Vertical_Projection8_0_0/src/vp_ram/synth/vp_ram.vhd:71]
+WARNING: [Synth 8-689] width (12) of port connection 'addra' does not match port width (11) of module 'vp_ram' [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:400]
+WARNING: [Synth 8-689] width (12) of port connection 'addrb' does not match port width (11) of module 'vp_ram' [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:403]
+WARNING: [Synth 8-689] width (12) of port connection 'addra' does not match port width (11) of module 'vp_ram' [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:410]
+WARNING: [Synth 8-689] width (12) of port connection 'addrb' does not match port width (11) of module 'vp_ram' [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:413]
+WARNING: [Synth 8-6014] Unused sequential element hs_r_reg was removed.  [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:60]
+WARNING: [Synth 8-6014] Unused sequential element de_r_reg was removed.  [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:62]
+WARNING: [Synth 8-6014] Unused sequential element vcount_l2_r_reg was removed.  [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:266]
+WARNING: [Synth 8-6014] Unused sequential element vcount_r2_r_reg was removed.  [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:267]
+INFO: [Synth 8-6155] done synthesizing module 'Vertical_Projection8' (10#1) [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'm3_for_arty_a7_Vertical_Projection8_0_0' (11#1) [v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_Vertical_Projection8_0_0/synth/m3_for_arty_a7_Vertical_Projection8_0_0.v:58]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port SSRA
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port REGCEA
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port SSRB
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port WEB[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[8]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[7]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[6]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[5]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[4]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[3]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[2]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[1]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port DINB[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port SLEEP
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port INJECTSBITERR
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port INJECTDBITERR
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper has unconnected port ECCPIPECE
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port REGCEA[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port RSTB[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port INJECTSBITERR
+WARNING: [Synth 8-3331] design blk_mem_gen_generic_cstr has unconnected port INJECTDBITERR
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port CLKB
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DOUTA_I[0]
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port SBITERR_I
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port DBITERR_I
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[10]
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[9]
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[8]
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[7]
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[6]
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[5]
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[4]
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[3]
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[2]
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[1]
+WARNING: [Synth 8-3331] design blk_mem_output_block has unconnected port RDADDRECC_I[0]
+WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port RSTA
+WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ENA
+WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port REGCEA
+WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port RSTB
+WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port ENB
+WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port REGCEB
+WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port WEB[0]
+WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port DINB[0]
+WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port INJECTDBITERR
+WARNING: [Synth 8-3331] design blk_mem_input_block has unconnected port INJECTSBITERR
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AClk
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWID[3]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWID[2]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWID[1]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWID[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[31]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[30]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[29]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[28]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[27]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[26]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[25]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[24]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[23]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[22]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[21]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[20]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[19]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[18]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[17]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[16]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[15]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[14]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[13]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[12]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[11]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[10]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[9]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[8]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[7]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[6]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[5]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[4]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[3]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[2]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[1]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWADDR[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWLEN[7]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWLEN[6]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWLEN[5]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWLEN[4]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWLEN[3]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWLEN[2]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWLEN[1]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWLEN[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWSIZE[2]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWSIZE[1]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWSIZE[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWBURST[1]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWBURST[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_AWVALID
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_WDATA[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_v8_4_1_synth has unconnected port S_AXI_WSTRB[0]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:01 ; elapsed = 00:02:31 . Memory (MB): peak = 738.539 ; gain = 368.887
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:01 ; elapsed = 00:02:31 . Memory (MB): peak = 738.539 ; gain = 368.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:01 ; elapsed = 00:02:31 . Memory (MB): peak = 738.539 ; gain = 368.887
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.runs/m3_for_arty_a7_Vertical_Projection8_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.runs/m3_for_arty_a7_Vertical_Projection8_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 857.727 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:02:18 ; elapsed = 00:02:53 . Memory (MB): peak = 857.727 ; gain = 488.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:18 ; elapsed = 00:02:53 . Memory (MB): peak = 857.727 ; gain = 488.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst/h_ram_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/v_ram_inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:18 ; elapsed = 00:02:53 . Memory (MB): peak = 857.727 ; gain = 488.074
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'v_we_reg' into 'h_we_reg' [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:241]
+INFO: [Synth 8-4471] merging register 'v_di_reg' into 'h_di_reg' [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:244]
+WARNING: [Synth 8-6014] Unused sequential element v_we_reg was removed.  [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:241]
+WARNING: [Synth 8-6014] Unused sequential element v_di_reg was removed.  [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:244]
+INFO: [Synth 8-802] inferred FSM for state register 'c_state_reg' in module 'Vertical_Projection8'
+WARNING: [Synth 8-6014] Unused sequential element n_state_reg was removed.  [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/d116/src/Vertical_Projection8.v:199]
+INFO: [Synth 8-5546] ROM "th_flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "n_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "n_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "n_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "n_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "n_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "n_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'c_state_reg' in module 'fsm1C0DF0AE3200'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:18 ; elapsed = 00:02:53 . Memory (MB): peak = 857.727 ; gain = 488.074
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 8     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 23    
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 13    
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 7     
+	   5 Input     12 Bit        Muxes := 5     
+	   6 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 28    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Vertical_Projection8 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 8     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 23    
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 13    
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 7     
+	   5 Input     12 Bit        Muxes := 5     
+	   6 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 28    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "inst/th_flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3886] merging instance 'inst/h_raddr_reg[11]' (FDCE) to 'inst/h_raddr_reg[10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/h_raddr_reg[10] )
+INFO: [Synth 8-3886] merging instance 'inst/hcount_r8_r_reg[10]' (FDCE) to 'inst/hcount_r8_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_l8_r_reg[10]' (FDCE) to 'inst/hcount_l8_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_r7_r_reg[10]' (FDCE) to 'inst/hcount_r7_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_l7_r_reg[10]' (FDCE) to 'inst/hcount_l7_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_r6_r_reg[10]' (FDCE) to 'inst/hcount_r6_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_l6_r_reg[10]' (FDCE) to 'inst/hcount_l6_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_r5_r_reg[10]' (FDCE) to 'inst/hcount_r5_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_l5_r_reg[10]' (FDCE) to 'inst/hcount_l5_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_r4_r_reg[10]' (FDCE) to 'inst/hcount_r4_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_l4_r_reg[10]' (FDCE) to 'inst/hcount_l4_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_r3_r_reg[10]' (FDCE) to 'inst/hcount_r3_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_l3_r_reg[10]' (FDCE) to 'inst/hcount_l3_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_r2_r_reg[10]' (FDCE) to 'inst/hcount_r2_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_l2_r_reg[10]' (FDCE) to 'inst/hcount_l2_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_r1_r_reg[10]' (FDCE) to 'inst/hcount_r1_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/hcount_l1_r_reg[10]' (FDCE) to 'inst/hcount_l1_r_reg[11]'
+INFO: [Synth 8-3332] Sequential element (inst/h_raddr_reg[10]) is unused and will be removed from module m3_for_arty_a7_Vertical_Projection8_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/h_waddr_reg[11]) is unused and will be removed from module m3_for_arty_a7_Vertical_Projection8_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/v_waddr_reg[11]) is unused and will be removed from module m3_for_arty_a7_Vertical_Projection8_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:21 ; elapsed = 00:02:56 . Memory (MB): peak = 857.727 ; gain = 488.074
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:34 ; elapsed = 00:03:11 . Memory (MB): peak = 861.383 ; gain = 491.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:34 ; elapsed = 00:03:11 . Memory (MB): peak = 861.680 ; gain = 492.027
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:35 ; elapsed = 00:03:11 . Memory (MB): peak = 882.672 ; gain = 513.020
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:36 ; elapsed = 00:03:13 . Memory (MB): peak = 882.672 ; gain = 513.020
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:36 ; elapsed = 00:03:13 . Memory (MB): peak = 882.672 ; gain = 513.020
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:36 ; elapsed = 00:03:13 . Memory (MB): peak = 882.672 ; gain = 513.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:36 ; elapsed = 00:03:13 . Memory (MB): peak = 882.672 ; gain = 513.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:36 ; elapsed = 00:03:13 . Memory (MB): peak = 882.672 ; gain = 513.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:36 ; elapsed = 00:03:13 . Memory (MB): peak = 882.672 ; gain = 513.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    24|
+|2     |LUT1     |    42|
+|3     |LUT2     |    38|
+|4     |LUT3     |     9|
+|5     |LUT4     |    17|
+|6     |LUT5     |    20|
+|7     |LUT6     |    60|
+|8     |RAMB18E1 |     2|
+|9     |FDCE     |   285|
+|10    |FDPE     |     2|
+|11    |FDRE     |    11|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------------------------------------------+---------------------------+------+
+|      |Instance                                         |Module                     |Cells |
++------+-------------------------------------------------+---------------------------+------+
+|1     |top                                              |                           |   510|
+|2     |  inst                                           |Vertical_Projection8       |   510|
+|3     |    h_ram_inst                                   |vp_ram__1                  |     1|
+|4     |      U0                                         |blk_mem_gen_v8_4_1__1      |     1|
+|5     |        inst_blk_mem_gen                         |blk_mem_gen_v8_4_1_synth_0 |     1|
+|6     |          \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top_1          |     1|
+|7     |            \valid.cstr                          |blk_mem_gen_generic_cstr_2 |     1|
+|8     |              \ramloop[0].ram.r                  |blk_mem_gen_prim_width_3   |     1|
+|9     |                \prim_noinit.ram                 |blk_mem_gen_prim_wrapper_4 |     1|
+|10    |    v_ram_inst                                   |vp_ram                     |     1|
+|11    |      U0                                         |blk_mem_gen_v8_4_1         |     1|
+|12    |        inst_blk_mem_gen                         |blk_mem_gen_v8_4_1_synth   |     1|
+|13    |          \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top            |     1|
+|14    |            \valid.cstr                          |blk_mem_gen_generic_cstr   |     1|
+|15    |              \ramloop[0].ram.r                  |blk_mem_gen_prim_width     |     1|
+|16    |                \prim_noinit.ram                 |blk_mem_gen_prim_wrapper   |     1|
++------+-------------------------------------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:36 ; elapsed = 00:03:13 . Memory (MB): peak = 882.672 ; gain = 513.020
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 129 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:02:56 . Memory (MB): peak = 882.672 ; gain = 393.832
+Synthesis Optimization Complete : Time (s): cpu = 00:02:37 ; elapsed = 00:03:13 . Memory (MB): peak = 882.672 ; gain = 513.020
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 116 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:39 ; elapsed = 00:03:17 . Memory (MB): peak = 884.383 ; gain = 526.203
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.runs/m3_for_arty_a7_Vertical_Projection8_0_0_synth_1/m3_for_arty_a7_Vertical_Projection8_0_0.dcp' has been generated.

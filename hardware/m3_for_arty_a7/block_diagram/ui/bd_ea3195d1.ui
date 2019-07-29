@@ -1,0 +1,67 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port clk_cpu -pg 1 -y 1810 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -y 1830 -defaultsOSRD
+preplace port i_de -pg 1 -y 740 -defaultsOSRD
+preplace port vid_io_out_clk_25M -pg 1 -y 620 -defaultsOSRD
+preplace port i_vsync -pg 1 -y 720 -defaultsOSRD
+preplace port reset_n -pg 1 -y 640 -defaultsOSRD
+preplace port i_hsync -pg 1 -y 700 -defaultsOSRD
+preplace port S00_AXI1 -pg 1 -y 1690 -defaultsOSRD
+preplace portBus hcount_r2 -pg 1 -y 940 -defaultsOSRD
+preplace portBus i_rgb -pg 1 -y 680 -defaultsOSRD
+preplace portBus hcount_r3 -pg 1 -y 1890 -defaultsOSRD
+preplace portBus frame_cnt -pg 1 -y 660 -defaultsOSRD
+preplace portBus hcount_r4 -pg 1 -y 1300 -defaultsOSRD
+preplace portBus hcount -pg 1 -y 760 -defaultsOSRD
+preplace portBus hcount_l -pg 1 -y 240 -defaultsOSRD
+preplace portBus vcount_r -pg 1 -y 980 -defaultsOSRD
+preplace portBus hcount_l1 -pg 1 -y 580 -defaultsOSRD
+preplace portBus hcount_l2 -pg 1 -y 920 -defaultsOSRD
+preplace portBus hcount_r -pg 1 -y 260 -defaultsOSRD
+preplace portBus hcount_l3 -pg 1 -y 1870 -defaultsOSRD
+preplace portBus hcount_l4 -pg 1 -y 1280 -defaultsOSRD
+preplace portBus hcount_r1 -pg 1 -y 600 -defaultsOSRD
+preplace portBus vcount_l -pg 1 -y 960 -defaultsOSRD
+preplace portBus vcount -pg 1 -y 780 -defaultsOSRD
+preplace inst single_char_recognit_0 -pg 1 -lvl 1 -y 520 -defaultsOSRD
+preplace inst char_recongize_5thing_0 -pg 1 -lvl 2 -y 1760 -defaultsOSRD
+preplace inst single_char_recognit_1 -pg 1 -lvl 1 -y 860 -defaultsOSRD
+preplace inst single_char_recognit_2 -pg 1 -lvl 1 -y 1810 -defaultsOSRD
+preplace inst single_char_recognit_3 -pg 1 -lvl 1 -y 1220 -defaultsOSRD
+preplace inst single_char_recognit_4 -pg 1 -lvl 1 -y 180 -defaultsOSRD
+preplace netloc Conn1 1 0 2 10J 1630 410J
+preplace netloc clk_cpu_1 1 0 2 0J 1620 390J
+preplace netloc Vertical_Projection8_0_hcount_r7 1 0 1 NJ
+preplace netloc Vertical_Projection8_0_hcount_l8 1 0 1 NJ
+preplace netloc Vertical_Projection8_0_frame_cnt 1 0 1 70
+preplace netloc Vertical_Projection8_0_hcount_r8 1 0 1 NJ
+preplace netloc HVcount_1_o_de 1 0 1 20
+preplace netloc HVcount_1_o_vsync 1 0 1 100
+preplace netloc HVcount_1_hcount 1 0 1 30
+preplace netloc single_char_recognit_4_char 1 1 1 450
+preplace netloc Vertical_Projection8_0_vcount_r 1 0 1 120
+preplace netloc vid_io_out_clk_25M_1 1 0 1 40
+preplace netloc HVcount_1_o_data 1 0 1 80
+preplace netloc HVcount_1_o_hsync 1 0 1 90
+preplace netloc Vertical_Projection8_0_hcount_l4 1 0 1 NJ
+preplace netloc single_char_recognit_0_char 1 1 1 430
+preplace netloc single_char_recognit_3_char 1 1 1 420
+preplace netloc s00_axi_aresetn_1 1 0 2 -10J 1610 400J
+preplace netloc Vertical_Projection8_0_hcount_l5 1 0 1 NJ
+preplace netloc Vertical_Projection8_0_hcount_r4 1 0 1 NJ
+preplace netloc Vertical_Projection8_0_hcount_l6 1 0 1 NJ
+preplace netloc Vertical_Projection8_0_hcount_r5 1 0 1 NJ
+preplace netloc single_char_recognit_2_char 1 1 1 380
+preplace netloc single_char_recognit_1_char 1 1 1 440
+preplace netloc Vertical_Projection8_0_hcount_r6 1 0 1 NJ
+preplace netloc Vertical_Projection8_0_hcount_l7 1 0 1 NJ
+preplace netloc Vertical_Projection8_0_vcount_l 1 0 1 110
+preplace netloc HVcount_1_vcount 1 0 1 50
+preplace netloc reset_n_1 1 0 1 60
+levelinfo -pg 1 -30 250 610 760 -top 0 -bot 1990
+",
+}
+

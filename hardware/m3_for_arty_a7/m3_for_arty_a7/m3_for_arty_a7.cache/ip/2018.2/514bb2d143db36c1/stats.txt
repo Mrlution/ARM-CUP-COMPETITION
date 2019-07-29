@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Wed Jun 05 04:09:14 UTC 2019
+VLNV: xilinx.com:user:char_recongize_5thing:1.0
+SynthRuntime: 95

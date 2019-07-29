@@ -1,0 +1,1364 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Jul 17 00:26:00 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Vertical_Projection_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_Vertical_Projection_0_0 (xilinx.com:user:Vertical_Projection:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Jul 17 00:17:18 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_binary_image_etch_1_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_binary_image_etch_1_2 (xilinx.com:user:binary_image_etch:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Jul 17 00:17:18 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_binary_image_etch_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_binary_image_etch_0_2 (xilinx.com:user:binary_image_etch:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Jul 17 00:17:18 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_binary_image_etch_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_binary_image_etch_0_1 (xilinx.com:user:binary_image_etch:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Jul 17 00:17:18 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Vertical_Projection_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of m3_for_arty_a7_Vertical_Projection_0_0 (xilinx.com:user:Vertical_Projection:1.0 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue Jul 16 19:43:05 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Vertical_Projection_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of m3_for_arty_a7_Vertical_Projection_0_0 (xilinx.com:user:Vertical_Projection:1.0 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue Jul 16 18:51:36 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Hcount_Send_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_Hcount_Send_0_0 (xilinx.com:user:Hcount_Send:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_Hcount_Send_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'hcount1_l' width 12 differs from original width 1
+
+-Upgraded port 'hcount1_r' width 12 differs from original width 1
+
+-Upgraded port 'hcount2_l' width 12 differs from original width 1
+
+-Upgraded port 'hcount2_r' width 12 differs from original width 1
+
+-Upgraded port 'hcount3_l' width 12 differs from original width 1
+
+-Upgraded port 'hcount3_r' width 12 differs from original width 1
+
+-Upgraded port 'hcount4_l' width 12 differs from original width 1
+
+-Upgraded port 'hcount4_r' width 12 differs from original width 1
+
+-Upgraded port 'hcount5_l' width 12 differs from original width 1
+
+-Upgraded port 'hcount5_r' width 12 differs from original width 1
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Jul 15 14:30:22 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Vertical_Projection_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of m3_for_arty_a7_Vertical_Projection_0_0 (xilinx.com:user:Vertical_Projection:1.0 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Jul 15 13:13:56 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_char_recongize_5thing_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_char_recongize_5thing_0_0 (xilinx.com:user:char_recongize_5thing:1.0) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_char_recongize_5thing_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'char1' width 22 differs from original width 32
+
+-Upgraded port 'char2' width 22 differs from original width 32
+
+-Upgraded port 'char3' width 22 differs from original width 32
+
+-Upgraded port 'char4' width 22 differs from original width 32
+
+-Upgraded port 'char5' width 22 differs from original width 32
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Jul 15 12:49:10 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_char_recongize_5thing_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_char_recongize_5thing_0_0 (xilinx.com:user:char_recongize_5thing:1.0) from (Rev. 3) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_char_recongize_5thing_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'char1' width 32 differs from original width 16
+
+-Upgraded port 'char2' width 32 differs from original width 16
+
+-Upgraded port 'char3' width 32 differs from original width 16
+
+-Upgraded port 'char4' width 32 differs from original width 16
+
+-Upgraded port 'char5' width 32 differs from original width 16
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Jul 15 12:41:33 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_4'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_digital_recognition_0_4 (xilinx.com:user:digital_recognition:1.0) from (Rev. 6) to (Rev. 7)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_digital_recognition_0_4'. These changes may impact your design.
+
+
+-Upgrade has removed port 'P_1_3'
+
+-Upgrade has removed port 'P_2_3'
+
+-Upgrade has removed port 'P_2_5'
+
+-Upgrade has removed port 'P_3_5'
+
+-Upgrade has added port 'PX1_1'
+
+-Upgrade has added port 'PX1_2'
+
+-Upgrade has added port 'PX2_1'
+
+-Upgrade has added port 'PX2_2'
+
+-Upgrade has added port 'PX3_1'
+
+-Upgrade has added port 'PX3_2'
+
+-Upgrade has added port 'v7'
+
+-Upgrade has added port 'x3'
+
+-Upgrade has added port 'x3_l'
+
+-Upgrade has added port 'x3_r'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Jul 15 12:41:33 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_3'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_digital_recognition_0_3 (xilinx.com:user:digital_recognition:1.0) from (Rev. 6) to (Rev. 7)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_digital_recognition_0_3'. These changes may impact your design.
+
+
+-Upgrade has removed port 'P_1_3'
+
+-Upgrade has removed port 'P_2_3'
+
+-Upgrade has removed port 'P_2_5'
+
+-Upgrade has removed port 'P_3_5'
+
+-Upgrade has added port 'PX1_1'
+
+-Upgrade has added port 'PX1_2'
+
+-Upgrade has added port 'PX2_1'
+
+-Upgrade has added port 'PX2_2'
+
+-Upgrade has added port 'PX3_1'
+
+-Upgrade has added port 'PX3_2'
+
+-Upgrade has added port 'v7'
+
+-Upgrade has added port 'x3'
+
+-Upgrade has added port 'x3_l'
+
+-Upgrade has added port 'x3_r'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Jul 15 12:41:33 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_digital_recognition_0_2 (xilinx.com:user:digital_recognition:1.0) from (Rev. 6) to (Rev. 7)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_digital_recognition_0_2'. These changes may impact your design.
+
+
+-Upgrade has removed port 'P_1_3'
+
+-Upgrade has removed port 'P_2_3'
+
+-Upgrade has removed port 'P_2_5'
+
+-Upgrade has removed port 'P_3_5'
+
+-Upgrade has added port 'PX1_1'
+
+-Upgrade has added port 'PX1_2'
+
+-Upgrade has added port 'PX2_1'
+
+-Upgrade has added port 'PX2_2'
+
+-Upgrade has added port 'PX3_1'
+
+-Upgrade has added port 'PX3_2'
+
+-Upgrade has added port 'v7'
+
+-Upgrade has added port 'x3'
+
+-Upgrade has added port 'x3_l'
+
+-Upgrade has added port 'x3_r'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Jul 15 12:41:33 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_digital_recognition_0_1 (xilinx.com:user:digital_recognition:1.0) from (Rev. 6) to (Rev. 7)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_digital_recognition_0_1'. These changes may impact your design.
+
+
+-Upgrade has removed port 'P_1_3'
+
+-Upgrade has removed port 'P_2_3'
+
+-Upgrade has removed port 'P_2_5'
+
+-Upgrade has removed port 'P_3_5'
+
+-Upgrade has added port 'PX1_1'
+
+-Upgrade has added port 'PX1_2'
+
+-Upgrade has added port 'PX2_1'
+
+-Upgrade has added port 'PX2_2'
+
+-Upgrade has added port 'PX3_1'
+
+-Upgrade has added port 'PX3_2'
+
+-Upgrade has added port 'v7'
+
+-Upgrade has added port 'x3'
+
+-Upgrade has added port 'x3_l'
+
+-Upgrade has added port 'x3_r'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Jul 15 12:41:33 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_digital_recognition_0_0 (xilinx.com:user:digital_recognition:1.0) from (Rev. 6) to (Rev. 7)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_digital_recognition_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'P_1_3'
+
+-Upgrade has removed port 'P_2_3'
+
+-Upgrade has removed port 'P_2_5'
+
+-Upgrade has removed port 'P_3_5'
+
+-Upgrade has added port 'PX1_1'
+
+-Upgrade has added port 'PX1_2'
+
+-Upgrade has added port 'PX2_1'
+
+-Upgrade has added port 'PX2_2'
+
+-Upgrade has added port 'PX3_1'
+
+-Upgrade has added port 'PX3_2'
+
+-Upgrade has added port 'v7'
+
+-Upgrade has added port 'x3'
+
+-Upgrade has added port 'x3_l'
+
+-Upgrade has added port 'x3_r'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Jul 15 12:40:00 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_send_line_data_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_send_line_data_0_0 (xilinx.com:user:send_line_data:1.0) from (Rev. 3) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_send_line_data_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'P1_3'
+
+-Upgrade has removed port 'P2_3'
+
+-Upgrade has removed port 'P2_5'
+
+-Upgrade has removed port 'P3_5'
+
+-Upgrade has added port 'P1_1'
+
+-Upgrade has added port 'P1_2'
+
+-Upgrade has added port 'P2_1'
+
+-Upgrade has added port 'P2_2'
+
+-Upgrade has added port 'P3_1'
+
+-Upgrade has added port 'P3_2'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Jun  9 14:55:06 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_binary_image_swell_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_binary_image_swell_0_0 (xilinx.com:user:binary_image_swell:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Jun  9 14:55:06 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_binary_image_etch_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of m3_for_arty_a7_binary_image_etch_0_0 (xilinx.com:user:binary_image_etch:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jun  7 23:15:46 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_digital_recognition_0_4 (xilinx.com:user:digital_recognition:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jun  7 23:15:46 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_digital_recognition_0_3 (xilinx.com:user:digital_recognition:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jun  7 23:15:46 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_digital_recognition_0_2 (xilinx.com:user:digital_recognition:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jun  7 23:15:46 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_digital_recognition_0_1 (xilinx.com:user:digital_recognition:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jun  7 23:15:46 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_digital_recognition_0_0 (xilinx.com:user:digital_recognition:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jun  7 19:58:28 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_4'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_digital_recognition_0_4 (xilinx.com:user:digital_recognition:1.0) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_digital_recognition_0_4'. These changes may impact your design.
+
+
+-Upgrade has added port 'V_ret'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jun  7 19:58:28 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_3'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_digital_recognition_0_3 (xilinx.com:user:digital_recognition:1.0) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_digital_recognition_0_3'. These changes may impact your design.
+
+
+-Upgrade has added port 'V_ret'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jun  7 19:58:28 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_digital_recognition_0_2 (xilinx.com:user:digital_recognition:1.0) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_digital_recognition_0_2'. These changes may impact your design.
+
+
+-Upgrade has added port 'V_ret'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jun  7 19:58:28 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_digital_recognition_0_1 (xilinx.com:user:digital_recognition:1.0) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_digital_recognition_0_1'. These changes may impact your design.
+
+
+-Upgrade has added port 'V_ret'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jun  7 19:58:28 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_digital_recognition_0_0 (xilinx.com:user:digital_recognition:1.0) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_digital_recognition_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'V_ret'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jun  7 19:49:27 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_send_line_data_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_send_line_data_0_0 (xilinx.com:user:send_line_data:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_send_line_data_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'V_ret'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Thu Jun  6 11:52:36 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Vertical_Projection_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of m3_for_arty_a7_Vertical_Projection_0_0 (xilinx.com:user:Vertical_Projection:1.0 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Jun  5 12:26:54 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Vertical_Projection_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of m3_for_arty_a7_Vertical_Projection_0_0 (xilinx.com:user:Vertical_Projection:1.0 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue Jun  4 20:22:15 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_digital_recognition_0_0 (xilinx.com:user:digital_recognition:1.0) from (Rev. 3) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_digital_recognition_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'P_1_3'
+
+-Upgrade has added port 'P_2_3'
+
+-Upgrade has added port 'P_2_5'
+
+-Upgrade has added port 'P_3_5'
+
+
+3. Customization warnings
+-------------------------
+
+Parameter 'P_1_3' is no longer present on the upgraded IP 'm3_for_arty_a7_digital_recognition_0_0', and cannot be set to '"010101"'
+
+Parameter 'P_2_3' is no longer present on the upgraded IP 'm3_for_arty_a7_digital_recognition_0_0', and cannot be set to '"101011"'
+
+Parameter 'P_2_5' is no longer present on the upgraded IP 'm3_for_arty_a7_digital_recognition_0_0', and cannot be set to '"010101"'
+
+Parameter 'P_3_5' is no longer present on the upgraded IP 'm3_for_arty_a7_digital_recognition_0_0', and cannot be set to '"101010"'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:user:digital_recognition:1.0 -user_name m3_for_arty_a7_digital_recognition_0_0
+set_property -dict "\
+  CONFIG.Component_Name {m3_for_arty_a7_digital_recognition_0_0} \
+  CONFIG.pixel_clk.ASSOCIATED_BUSIF {} \
+  CONFIG.pixel_clk.ASSOCIATED_RESET {} \
+  CONFIG.pixel_clk.CLK_DOMAIN {/Clocks_and_Resets/clk_wiz_0_clk_out1} \
+  CONFIG.pixel_clk.FREQ_HZ {25000000} \
+  CONFIG.pixel_clk.PHASE {0.0} \
+  CONFIG.reset_n.POLARITY {ACTIVE_LOW} " [get_ips m3_for_arty_a7_digital_recognition_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue Jun  4 16:47:46 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_digital_recognition_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_digital_recognition_0_0 (xilinx.com:user:digital_recognition:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue Jun  4 16:38:02 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_char_recongize_5thing_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_char_recongize_5thing_0_0 (xilinx.com:user:char_recongize_5thing:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_char_recongize_5thing_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'char1' width 16 differs from original width 40
+
+-Upgraded port 'char2' width 16 differs from original width 40
+
+-Upgraded port 'char3' width 16 differs from original width 40
+
+-Upgraded port 'char4' width 16 differs from original width 40
+
+-Upgraded port 'char5' width 16 differs from original width 40
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Thu May 30 00:29:58 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_char_5_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_char_5_0_0 (xilinx.com:user:char_5:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed May 29 18:11:59 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Vertical_Projection_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of m3_for_arty_a7_Vertical_Projection_0_0 (xilinx.com:user:Vertical_Projection:1.0 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed May 29 12:00:33 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Vertical_Projection8_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of m3_for_arty_a7_Vertical_Projection8_0_0 (xilinx.com:user:Vertical_Projection8:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed May 29 00:14:31 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Vertical_Projection8_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of m3_for_arty_a7_Vertical_Projection8_0_0 (xilinx.com:user:Vertical_Projection8:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue May 28 14:54:23 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Vertical_Projection_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_Vertical_Projection_0_0 (xilinx.com:user:Vertical_Projection:1.0) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_Vertical_Projection_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'i_h_left_pixel_ret'
+
+-Upgrade has removed port 'i_h_right_pixel_ret'
+
+-Upgrade has removed port 'i_v_down_pixel_ret'
+
+-Upgrade has removed port 'i_v_up_pixel_ret'
+
+-Upgrade has added port 'i_ret_data'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue May 28 14:38:09 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_Vertical_Projection_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of m3_for_arty_a7_Vertical_Projection_0_0 (xilinx.com:user:Vertical_Projection:1.0) from (Rev. 2) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_Vertical_Projection_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'i_h_pixel_ret'
+
+-Upgrade has removed port 'i_v_pixel_ret'
+
+-Upgrade has added port 'i_h_left_pixel_ret'
+
+-Upgrade has added port 'i_h_right_pixel_ret'
+
+-Upgrade has added port 'i_v_down_pixel_ret'
+
+-Upgrade has added port 'i_v_up_pixel_ret'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue May 28 09:29:47 2019
+| Host         : DESKTOP-0PTRBG6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_smartconnect_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of m3_for_arty_a7_smartconnect_0_0 (xilinx.com:ip:smartconnect:1.0 (Rev. 9)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'm3_for_arty_a7_smartconnect_0_0'.
+
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_smartconnect_0_0'. These changes may impact your design.
+
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
+| Date         : Sun May 26 17:54:44 2019
+| Host         : LAPTOP-LTO7EJI2 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'm3_for_arty_a7_smartconnect_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of m3_for_arty_a7_smartconnect_0_0 (xilinx.com:ip:smartconnect:1.0 (Rev. 9)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'm3_for_arty_a7_smartconnect_0_0'.
+
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'm3_for_arty_a7_smartconnect_0_0'. These changes may impact your design.
+
+
+

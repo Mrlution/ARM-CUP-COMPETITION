@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER Hcount_Send
+	OPTION supported_peripherals = (Hcount_Send);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = Hcount_Send;
+END DRIVER

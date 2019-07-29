@@ -1,0 +1,577 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jul 16 22:34:53 2019
+# Process ID: 38452
+# Current directory: V:/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20416 V:\hardware\m3_for_arty_a7\m3_for_arty_a7\m3_for_arty_a7.xpr
+# Log file: V:/hardware/m3_for_arty_a7/m3_for_arty_a7/vivado.log
+# Journal file: V:/hardware/m3_for_arty_a7/m3_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+WARNING: [IP_Flow 19-3664] IP 'm3_for_arty_a7_binary_image_etch_0_0' generated file not found 'v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_binary_image_etch_0_0/src/img_ram/img_ram.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'img_ram'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'm3_for_arty_a7_binary_image_etch_0_0'. Error during subcore creation.
+WARNING: [IP_Flow 19-3664] IP 'm3_for_arty_a7_binary_image_swell_0_0' generated file not found 'v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_binary_image_swell_0_0/src/img_ram/img_ram.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'img_ram'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'm3_for_arty_a7_binary_image_swell_0_0'. Error during subcore creation.
+WARNING: [IP_Flow 19-3664] IP 'm3_for_arty_a7_binary_image_etch_1_1' generated file not found 'v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_binary_image_etch_1_1/src/img_ram/img_ram.xci'. Please regenerate to continue.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'img_ram'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+CRITICAL WARNING: [IP_Flow 19-3577] Failed to recreate IP instance 'm3_for_arty_a7_binary_image_etch_1_1'. Error during subcore creation.
+open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:24 . Memory (MB): peak = 1035.633 ; gain = 275.148
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+ipx::edit_ip_in_project -upgrade true -name binary_image_swell_v1_0_project -directory V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_swell_v1_0_project v:/vivado/Arm_ipi_repository/binary_image_swell/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_swell_v1_0_project'
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1108.770 ; gain = 29.285
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 1351.121 ; gain = 271.637
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+close_project
+report_ip_status -name ip_status 
+open_bd_design {V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}
+Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding cell -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+Adding cell -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- Arm.com:CortexM:CORTEXM3_AXI:1.0 - Cortex_M3_0
+cell handle is /Cortex_M3_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - lcd_spi
+Adding cell -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_1
+Adding cell -- xilinx.com:ip:v_vid_in_axi4s:4.0 - v_vid_in_axi4s_0
+Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding cell -- digilentinc.com:ip:rgb2vga:1.0 - rgb2vga_0
+Adding cell -- xilinx.com:ip:mig_7series:4.1 - mig_7series_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding cell -- xilinx.com:module_ref:OV_Sensor_ML:1.0 - OV_Sensor_ML_2
+Adding cell -- xilinx.com:module_ref:I2C_OV5640_Init_RGB565:1.0 - I2C_OV5640_Init_RGB5_0
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /ov5640/OV_Sensor_ML_2/vid_clk_ce(undef) and /ov5640/v_vid_in_axi4s_0/vid_io_in_ce(ce)
+Adding cell -- xilinx.com:module_ref:rgb_change:1.0 - rgb_change_0
+Adding cell -- xilinx.com:module_ref:sync_change:1.0 - sync_change_0
+Adding cell -- xilinx.com:module_ref:HVcount:1.0 - HVcount_0
+Adding cell -- xilinx.com:user:rgb2ycbcr:1.0 - rgb2ycbcr_0
+Adding cell -- xilinx.com:user:car_id:1.0 - car_id_0
+Adding cell -- xilinx.com:user:capture_lpr:1.0 - capture_lpr_0
+Adding cell -- xilinx.com:user:rgb2ycbcr:1.0 - rgb2ycbcr_1
+Adding cell -- xilinx.com:user:ycbcr_location:1.0 - ycbcr_location_0
+Adding cell -- xilinx.com:user:display:1.0 - display_0
+Adding cell -- xilinx.com:user:rgb_mux:1.0 - rgb_mux_0
+Adding cell -- xilinx.com:module_ref:sync_change:1.0 - sync_change_1
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding cell -- xilinx.com:user:Vertical_Projection8:1.0 - Vertical_Projection8_0
+Adding cell -- xilinx.com:user:binary_image_etch:1.0 - binary_image_etch_0
+Adding cell -- xilinx.com:user:binary_image_swell:1.0 - binary_image_swell_0
+Adding cell -- xilinx.com:module_ref:HVcount:1.0 - HVcount_1
+Adding cell -- xilinx.com:user:Hcount_Send:1.0 - Hcount_Send_0
+Adding cell -- xilinx.com:user:Vertical_Projection:1.0 - Vertical_Projection_0
+Adding cell -- xilinx.com:user:binary_image_etch:1.0 - binary_image_etch_1
+Adding cell -- xilinx.com:user:binary_image_etch:1.0 - binary_image_etch_5
+Adding cell -- xilinx.com:user:send_line_data:1.0 - send_line_data_0
+Adding cell -- xilinx.com:user:char_recongize_5thing:1.0 - char_recongize_5thing_0
+Adding cell -- xilinx.com:module_ref:display_lpr_boundary:1.0 - display_lpr_boundary_0
+Adding cell -- xilinx.com:module_ref:capture_single:1.0 - capture_single_4
+Adding cell -- xilinx.com:user:digital_recognition:1.0 - digital_recognition_4
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_4
+WARNING: [BD 41-1731] Type mismatch between connected pins: /ov5640/LPR_PROJ/char_recgonize/char_5/vid_io_out_clk_25M(clk) and /ov5640/LPR_PROJ/char_recgonize/char_5/capture_single_4/pixelclk(undef)
+Adding cell -- xilinx.com:module_ref:capture_single:1.0 - capture_single_3
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_3
+Adding cell -- xilinx.com:user:digital_recognition:1.0 - digital_recognition_3
+WARNING: [BD 41-1731] Type mismatch between connected pins: /ov5640/LPR_PROJ/char_recgonize/char_4/vid_io_out_clk_25M(clk) and /ov5640/LPR_PROJ/char_recgonize/char_4/capture_single_3/pixelclk(undef)
+Adding cell -- xilinx.com:module_ref:capture_single:1.0 - capture_single_2
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_2
+Adding cell -- xilinx.com:user:digital_recognition:1.0 - digital_recognition_2
+WARNING: [BD 41-1731] Type mismatch between connected pins: /ov5640/LPR_PROJ/char_recgonize/char_3/vid_io_out_clk_25M(clk) and /ov5640/LPR_PROJ/char_recgonize/char_3/capture_single_2/pixelclk(undef)
+Adding cell -- xilinx.com:module_ref:capture_single:1.0 - capture_single_1
+Adding cell -- xilinx.com:user:digital_recognition:1.0 - digital_recognition_1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+WARNING: [BD 41-1731] Type mismatch between connected pins: /ov5640/LPR_PROJ/char_recgonize/char_2/vid_io_out_clk_25M(clk) and /ov5640/LPR_PROJ/char_recgonize/char_2/capture_single_1/pixelclk(undef)
+Adding cell -- xilinx.com:module_ref:capture_single:1.0 - capture_single_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:user:digital_recognition:1.0 - digital_recognition_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /ov5640/LPR_PROJ/char_recgonize/char_1/vid_io_out_clk_25M(clk) and /ov5640/LPR_PROJ/char_recgonize/char_1/capture_single_0/pixelclk(undef)
+Adding cell -- xilinx.com:ip:axi_quad_spi:3.2 - axi_single_spi_0
+Adding cell -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+Adding cell -- xilinx.com:ip:axi_quad_spi:3.2 - axi_xip_quad_spi_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - axi_protocol_convert_0
+Adding cell -- Arm.com:user:DAPLink_to_Arty_shield:1.0 - DAPLink_to_Arty_shield_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_DAPLink
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_base
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - i_interconnect_aresetn
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - i_peripheral_aresetn1
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - i_sysresetn_or
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - i_inv_dbgresetn
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - i_inv_sysresetn1
+Adding cell -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Successfully read diagram <m3_for_arty_a7> from BD file <V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd>
+open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1455.633 ; gain = 76.797
+regenerate_bd_layout
+set_property location {2 366 775} [get_bd_cells xlconcat_0]
+set_property location {3 779 1206} [get_bd_cells Cortex_M3_0]
+set_property location {3 791 1067} [get_bd_cells Cortex_M3_0]
+regenerate_bd_layout
+open_bd_design {V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}
+save_bd_design
+Wrote  : <V:/hardware/m3_for_arty_a7/block_diagram/ui/bd_a2e86b50.ui> 
+Wrote  : <V:/hardware/m3_for_arty_a7/block_diagram/ui/bd_4ee8f1d4.ui> 
+Wrote  : <V:/hardware/m3_for_arty_a7/block_diagram/ui/bd_ddf308a9.ui> 
+Wrote  : <V:/hardware/m3_for_arty_a7/block_diagram/ui/bd_274fa8d8.ui> 
+ipx::edit_ip_in_project -upgrade true -name binary_image_etch_v1_0_project -directory V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_etch_v1_0_project v:/vivado/Arm_ipi_repository/binary_image_etch/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_etch_v1_0_project'
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1484.273 ; gain = 14.047
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/Hcount_Send_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/send_line_data_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_recongize_5thing_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/char_5_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/hardware/m3_for_arty_a7/ip_repo/one_char_read_40bit_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1487.949 ; gain = 17.723
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_cells' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_cells' failed due to earlier errors.
+    ::bd::mig_utils::can_apply_mig_rule Line 5
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_ports' failed due to earlier errors.
+ERROR: [#UNDEF] Tcl Error in evaluating proc can_apply_rule : ERROR: [Common 17-39] 'get_bd_intf_ports' failed due to earlier errors.
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_ports' failed due to earlier errors.
+ERROR: [#UNDEF] Tcl Error in evaluating proc can_apply_rule : ERROR: [Common 17-39] 'get_bd_intf_ports' failed due to earlier errors.
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_cells' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_cells' failed due to earlier errors.
+    ::bd::mig_utils::can_apply_mig_rule Line 5
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'img_ram'...
+WARNING: [HDL 9-2994] overwriting previous definition of module binary_image_etch [v:/vivado/Arm_ipi_repository/binary_image_etch/src/binary_image_etch.v:12]
+WARNING: [HDL 9-2994] overwriting previous definition of module fifo_linebuffer [v:/vivado/Arm_ipi_repository/binary_image_etch/src/fifo_linebuffer.v:2]
+WARNING: [HDL 9-2994] overwriting previous definition of module line [v:/vivado/Arm_ipi_repository/binary_image_etch/src/line.v:4]
+WARNING: [HDL 9-2994] overwriting previous definition of module linebuffer [v:/vivado/Arm_ipi_repository/binary_image_etch/src/linebuffer.v:13]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'binary_image_etch()' found in library 'xil_defaultlib'
+Duplicate found at line 12 of file v:/vivado/Arm_ipi_repository/binary_image_etch/sim/binary_image_etch.v
+	(Active) Duplicate found at line 12 of file v:/vivado/Arm_ipi_repository/binary_image_etch/src/binary_image_etch.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'fifo_linebuffer()' found in library 'xil_defaultlib'
+Duplicate found at line 2 of file v:/vivado/Arm_ipi_repository/binary_image_etch/sim/fifo_linebuffer.v
+	(Active) Duplicate found at line 2 of file v:/vivado/Arm_ipi_repository/binary_image_etch/src/fifo_linebuffer.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'line()' found in library 'xil_defaultlib'
+Duplicate found at line 4 of file v:/vivado/Arm_ipi_repository/binary_image_etch/sim/line.v
+	(Active) Duplicate found at line 4 of file v:/vivado/Arm_ipi_repository/binary_image_etch/src/line.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'linebuffer()' found in library 'xil_defaultlib'
+Duplicate found at line 13 of file v:/vivado/Arm_ipi_repository/binary_image_etch/sim/linebuffer.v
+	(Active) Duplicate found at line 13 of file v:/vivado/Arm_ipi_repository/binary_image_etch/src/linebuffer.v
+[Tue Jul 16 23:09:13 2019] Launched synth_1...
+Run output will be captured here: v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_etch_v1_0_project/binary_image_etch_v1_0_project.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] img_ram has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:nexys-a7-100t:part0:1.0'
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'v:/vivado/Arm_ipi_repository/binary_image_etch/sim/img_ram/img_ram.xci'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'v:/vivado/Arm_ipi_repository/binary_image_etch/sim/fifo_linebuffer.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'v:/vivado/Arm_ipi_repository/binary_image_etch/sim/line.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'v:/vivado/Arm_ipi_repository/binary_image_etch/sim/linebuffer.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'v:/vivado/Arm_ipi_repository/binary_image_etch/sim/binary_image_etch.v'.
+WARNING: [IP_Flow 19-5226] Project source file 'v:/vivado/Arm_ipi_repository/binary_image_etch/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_anylanguagesynthesis (Synthesis)': File 'v:/vivado/Arm_ipi_repository/binary_image_etch/sim/img_ram/img_ram.xci' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+set_property core_revision 3 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path v:/vivado/Arm_ipi_repository
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'v:/vivado/Arm_ipi_repository'
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:OV_Sensor_ML:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/OV_Sensor_ML' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/OV_Sensor_ML
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:rgb_change:1.0'. The one found in IP location 'v:/vivado/Arm_ipi_repository/rgb_change' will take precedence over the same IP in location v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.srcs/sources_1/bd/mref/rgb_change
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {m3_for_arty_a7_binary_image_etch_1_1 m3_for_arty_a7_binary_image_etch_0_0 m3_for_arty_a7_binary_image_etch_1_0}] -log ip_upgrade.log
+Upgrading 'V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd'
+ERROR: [Vivado 12-3445] A collection of objects is currently not supported at this time.  Please provide only one sub-design.
+ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-3445] A collection of objects is currently not supported at this time.  Please provide only one sub-design.
+
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: v:/vivado/Arm_ipi_repository/binary_image_swell/component.xml. It will be created.
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: v:/vivado/Arm_ipi_repository/binary_image_etch/component.xml. It will be created.
+upgrade_ip [get_ips  {m3_for_arty_a7_binary_image_etch_1_1 m3_for_arty_a7_binary_image_etch_0_0 m3_for_arty_a7_binary_image_etch_1_0}] -log ip_upgrade.log
+Upgrading 'V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd'
+ERROR: [Vivado 12-3445] A collection of objects is currently not supported at this time.  Please provide only one sub-design.
+ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-3445] A collection of objects is currently not supported at this time.  Please provide only one sub-design.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 16 23:17:08 2019...

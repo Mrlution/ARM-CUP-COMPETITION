@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Jun  5 11:06:30 2019
+# Process ID: 57628
+# Current directory: v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/vertical_projection8_v1_0_project/Vertical_Projection8_v1_0_project.runs/synth_1
+# Command line: vivado.exe -log Vertical_Projection8.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Vertical_Projection8.tcl
+# Log file: v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/vertical_projection8_v1_0_project/Vertical_Projection8_v1_0_project.runs/synth_1/Vertical_Projection8.vds
+# Journal file: v:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/vertical_projection8_v1_0_project/Vertical_Projection8_v1_0_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Vertical_Projection8.tcl -notrace

@@ -1,0 +1,76 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port i_de -pg 1 -y 590 -defaultsOSRD
+preplace port vid_io_out_clk_25M -pg 1 -y 50 -defaultsOSRD
+preplace port i_de1 -pg 1 -y 630 -defaultsOSRD
+preplace port i_vsync1 -pg 1 -y 610 -defaultsOSRD
+preplace port i_vsync -pg 1 -y 570 -defaultsOSRD
+preplace port reset_n -pg 1 -y 70 -defaultsOSRD
+preplace port i_hsync -pg 1 -y 550 -defaultsOSRD
+preplace port o_hsync -pg 1 -y 590 -defaultsOSRD
+preplace portBus PX1_2 -pg 1 -y 390 -defaultsOSRD
+preplace portBus PX2_2 -pg 1 -y 350 -defaultsOSRD
+preplace portBus i_rgb -pg 1 -y 530 -defaultsOSRD
+preplace portBus frame_cnt -pg 1 -y 270 -defaultsOSRD
+preplace portBus PX3_1 -pg 1 -y 290 -defaultsOSRD
+preplace portBus hcount -pg 1 -y 130 -defaultsOSRD
+preplace portBus PX3_2 -pg 1 -y 310 -defaultsOSRD
+preplace portBus hcount_l -pg 1 -y 170 -defaultsOSRD
+preplace portBus vcount_r -pg 1 -y 230 -defaultsOSRD
+preplace portBus dout -pg 1 -y 130 -defaultsOSRD
+preplace portBus v3 -pg 1 -y 290 -defaultsOSRD
+preplace portBus v5 -pg 1 -y 270 -defaultsOSRD
+preplace portBus hcount_r -pg 1 -y 190 -defaultsOSRD
+preplace portBus h2 -pg 1 -y 250 -defaultsOSRD
+preplace portBus PX1_1 -pg 1 -y 250 -defaultsOSRD
+preplace portBus PX2_1 -pg 1 -y 330 -defaultsOSRD
+preplace portBus V_ret -pg 1 -y 370 -defaultsOSRD
+preplace portBus vcount_l -pg 1 -y 210 -defaultsOSRD
+preplace portBus vcount -pg 1 -y 150 -defaultsOSRD
+preplace inst digital_recognition_2 -pg 1 -lvl 1 -y 200 -defaultsOSRD
+preplace inst xlconcat_2 -pg 1 -lvl 2 -y 130 -defaultsOSRD
+preplace inst capture_single_2 -pg 1 -lvl 1 -y 610 -defaultsOSRD
+preplace netloc PX1_2_1 1 0 1 80
+preplace netloc vcount_l_1 1 0 1 10
+preplace netloc hcount_r_1 1 0 1 0
+preplace netloc digital_recognition_0_x2_l 1 1 1 420
+preplace netloc hcount_l_1 1 0 1 -10
+preplace netloc i_hsync_1 1 0 1 -40J
+preplace netloc PX2_1_1 1 0 1 40
+preplace netloc V_ret_1 1 0 1 30
+preplace netloc digital_recognition_2_x1 1 1 1 470
+preplace netloc digital_recognition_0_v3 1 1 3 NJ 310 NJ 310 780J
+preplace netloc digital_recognition_0_x1_r 1 1 1 410
+preplace netloc digital_recognition_2_x2 1 1 1 480
+preplace netloc digital_recognition_2_x3_r 1 1 1 450
+preplace netloc vcount_1 1 0 1 -20
+preplace netloc digital_recognition_2_x3 1 1 1 490
+preplace netloc digital_recognition_0_v5 1 1 3 NJ 290 NJ 290 770J
+preplace netloc capture_single_0_o_hsync 1 1 3 440 590 NJ 590 NJ
+preplace netloc i_vsync_1 1 0 1 -40J
+preplace netloc digital_recognition_0_x2_r 1 1 1 430
+preplace netloc capture_single_0_o_rgb 1 0 2 100 440 450J
+preplace netloc PX2_2_1 1 0 1 40
+preplace netloc vcount_r_1 1 0 1 20
+preplace netloc i_de_1 1 0 1 -40J
+preplace netloc i_rgb_1 1 0 1 -40J
+preplace netloc capture_single_0_o_de 1 0 4 110 780 410J 630 NJ 630 N
+preplace netloc digital_recognition_2_y 1 1 1 460
+preplace netloc PX3_2_1 1 0 1 -40
+preplace netloc hcount_1 1 0 1 -30
+preplace netloc Net 1 0 1 70
+preplace netloc Net1 1 0 1 60
+preplace netloc xlconcat_2_dout 1 2 2 NJ 130 NJ
+preplace netloc PX3_1_1 1 0 1 -40
+preplace netloc digital_recognition_0_h2 1 1 3 440J 280 NJ 280 760J
+preplace netloc capture_single_0_o_vsync 1 0 4 90 790 460J 640 N 640 770J
+preplace netloc digital_recognition_0_x1_l 1 1 1 400
+preplace netloc digital_recognition_2_x3_l 1 1 1 440
+preplace netloc PX1_1_1 1 0 1 50
+preplace netloc frame_cnt_1 1 0 1 -40J
+levelinfo -pg 1 -60 260 600 740 800 -top -40 -bot 800
+",
+}
+0

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1559703986">
+  <File Type="PA-TCL" Name="Vertical_Projection8.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Vertical_Projection8_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Vertical_Projection8_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Vertical_Projection8.vds"/>
+  <File Type="RDS-UTIL" Name="Vertical_Projection8_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Vertical_Projection8_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Vertical_Projection8.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Vertical_Projection8_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Vertical_Projection8_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../../../../vivado/Arm_ipi_repository/Vertical_Projection_char8/src/vp_ram/vp_ram.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../vivado/Arm_ipi_repository/Vertical_Projection_char8/src/Vertical_Projection8.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../vivado/Arm_ipi_repository/Vertical_Projection_char8/sim/vp_ram/vp_ram.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../vivado/Arm_ipi_repository/Vertical_Projection_char8/sim/Vertical_Projection8.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../vivado/Arm_ipi_repository/Vertical_Projection_char8/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Vertical_Projection8"/>
+      <Option Name="TopRTLFile" Val="$PPRDIR/../../../../../vivado/Arm_ipi_repository/Vertical_Projection_char8/src/Vertical_Projection8.v"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

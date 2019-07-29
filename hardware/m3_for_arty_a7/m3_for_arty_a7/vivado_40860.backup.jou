@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jul 16 20:17:04 2019
+# Process ID: 40860
+# Current directory: V:/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2228 V:\hardware\m3_for_arty_a7\m3_for_arty_a7\m3_for_arty_a7.xpr
+# Log file: V:/hardware/m3_for_arty_a7/m3_for_arty_a7/vivado.log
+# Journal file: V:/hardware/m3_for_arty_a7/m3_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.xpr
+update_compile_order -fileset sources_1
+open_bd_design {V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}
+ipx::edit_ip_in_project -upgrade true -name binary_image_swell_v1_0_project -directory V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_swell_v1_0_project v:/vivado/Arm_ipi_repository/binary_image_swell/component.xml
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+close_project
+ipx::edit_ip_in_project -upgrade true -name binary_image_etch_v1_0_project -directory V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_etch_v1_0_project v:/vivado/Arm_ipi_repository/binary_image_etch/component.xml
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+close_project
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip [get_ips  {m3_for_arty_a7_binary_image_etch_1_1 m3_for_arty_a7_binary_image_etch_0_0 m3_for_arty_a7_binary_image_etch_1_0}] -log ip_upgrade.log
+set_property LOCK_UPGRADE 1 [get_bd_cells /ov5640/LPR_PROJ/binary_image_etch_0]
+set_property LOCK_UPGRADE 1 [get_bd_cells /ov5640/LPR_PROJ/swell_etch/binary_image_etch_5]
+upgrade_ip -vlnv xilinx.com:user:binary_image_etch:1.0 [get_ips  m3_for_arty_a7_binary_image_etch_1_1] -log ip_upgrade.log
+report_ip_status -name ip_status 
+set_property LOCK_UPGRADE 0 [get_bd_cells /ov5640/LPR_PROJ/binary_image_etch_0]
+set_property LOCK_UPGRADE 0 [get_bd_cells /ov5640/LPR_PROJ/swell_etch/binary_image_etch_5]
+upgrade_ip [get_ips  {m3_for_arty_a7_binary_image_etch_1_1 m3_for_arty_a7_binary_image_etch_0_0 m3_for_arty_a7_binary_image_etch_1_0}] -log ip_upgrade.log
+set_property LOCK_UPGRADE 1 [get_bd_cells /ov5640/LPR_PROJ/swell_etch/binary_image_etch_1]
+set_property LOCK_UPGRADE 1 [get_bd_cells /ov5640/LPR_PROJ/binary_image_etch_0]
+set_property LOCK_UPGRADE 1 [get_bd_cells /ov5640/LPR_PROJ/swell_etch/binary_image_etch_5]
+upgrade_ip [get_ips  {m3_for_arty_a7_binary_image_etch_0_0 m3_for_arty_a7_binary_image_etch_1_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {m3_for_arty_a7_binary_image_etch_0_0 m3_for_arty_a7_binary_image_etch_1_0}] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+set_property LOCK_UPGRADE 0 [get_bd_cells /ov5640/LPR_PROJ/binary_image_etch_0]
+set_property LOCK_UPGRADE 0 [get_bd_cells /ov5640/LPR_PROJ/swell_etch/binary_image_etch_5]
+upgrade_ip [get_ips  {m3_for_arty_a7_binary_image_etch_0_0 m3_for_arty_a7_binary_image_etch_1_0}] -log ip_upgrade.log
+report_ip_status -name ip_status 

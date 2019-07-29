@@ -1,0 +1,119 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jul 16 23:17:21 2019
+# Process ID: 42240
+# Current directory: V:/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35488 V:\hardware\m3_for_arty_a7\m3_for_arty_a7\m3_for_arty_a7.xpr
+# Log file: V:/hardware/m3_for_arty_a7/m3_for_arty_a7/vivado.log
+# Journal file: V:/hardware/m3_for_arty_a7/m3_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.xpr
+update_compile_order -fileset sources_1
+update_ip_catalog -rebuild
+update_ip_catalog
+reset_run m3_for_arty_a7_binary_image_etch_0_0_synth_1
+reset_run m3_for_arty_a7_binary_image_swell_0_0_synth_1
+reset_run m3_for_arty_a7_binary_image_etch_1_1_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+delete_ip_run [get_files -of_objects [get_fileset sources_1] V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd]
+set_property synth_checkpoint_mode None [get_files  V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd]
+generate_target all [get_files  V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd]
+export_ip_user_files -of_objects [get_files V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -directory V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files/sim_scripts -ip_user_files_dir V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files -ipstatic_source_dir V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files/ipstatic -lib_map_path [list {modelsim=V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/modelsim} {questa=V:/precompiled_sim_libs} {riviera=V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/riviera} {activehdl=V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -top
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_bd_design {V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}
+delete_bd_objs [get_bd_nets ov5640/LPR_PROJ/swell_etch/binary_image_etch_1_data_out_en] [get_bd_nets ov5640/LPR_PROJ/swell_etch/binary_image_etch_5_data_out] [get_bd_nets ov5640/LPR_PROJ/swell_etch/binary_image_etch_5_data_out_en] [get_bd_nets ov5640/LPR_PROJ/swell_etch/binary_image_etch_1_data_out] [get_bd_cells ov5640/LPR_PROJ/swell_etch/binary_image_etch_5]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:binary_image_etch:1.0 ov5640/LPR_PROJ/swell_etch/binary_image_etch_0
+endgroup
+set_property location {2.5 601 101} [get_bd_cells ov5640/LPR_PROJ/swell_etch/binary_image_etch_0]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_0/data_in] [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_1/data_out]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_0/data_in_en] [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_1/data_out_en]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/swell_etch/reset_n] [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_0/rst_n]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/swell_etch/vid_io_out_clk_25M] [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_0/clk]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/swell_etch/data_out] [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_0/data_out]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/swell_etch/data_out_en] [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_0/data_out_en]
+delete_bd_objs [get_bd_nets ov5640/LPR_PROJ/swell_etch/binary_image_etch_1_data_out] [get_bd_nets ov5640/LPR_PROJ/swell_etch/binary_image_etch_1_data_out_en] [get_bd_nets ov5640/LPR_PROJ/swell_etch/ycbcr_location_0_binary_image] [get_bd_nets ov5640/LPR_PROJ/swell_etch/ycbcr_location_0_o_de] [get_bd_cells ov5640/LPR_PROJ/swell_etch/binary_image_etch_1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:binary_image_etch:1.0 ov5640/LPR_PROJ/swell_etch/binary_image_etch_1
+endgroup
+set_property location {1 252 167} [get_bd_cells ov5640/LPR_PROJ/swell_etch/binary_image_etch_1]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_1/data_out] [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_0/data_in]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_1/data_out_en] [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_0/data_in_en]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/swell_etch/vid_io_out_clk_25M] [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_1/clk]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/swell_etch/reset_n] [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_1/rst_n]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/swell_etch/data_in] [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_1/data_in]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/swell_etch/data_in_en] [get_bd_pins ov5640/LPR_PROJ/swell_etch/binary_image_etch_1/data_in_en]
+delete_bd_objs [get_bd_nets ov5640/LPR_PROJ/binary_image_swell_0_data_out] [get_bd_nets ov5640/LPR_PROJ/binary_image_swell_0_data_out_en] [get_bd_nets ov5640/LPR_PROJ/binary_image_etch_0_data_out] [get_bd_nets ov5640/LPR_PROJ/binary_image_etch_0_data_out_en] [get_bd_cells ov5640/LPR_PROJ/binary_image_etch_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:binary_image_etch:1.0 ov5640/LPR_PROJ/binary_image_etch_0
+endgroup
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/binary_image_etch_0/data_out_en] [get_bd_pins ov5640/LPR_PROJ/HVcount_0/i_de]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/binary_image_etch_0/data_out] [get_bd_pins ov5640/LPR_PROJ/HVcount_0/i_data]
+delete_bd_objs [get_bd_nets ov5640/LPR_PROJ/car_id_0_skin_binary_image] [get_bd_nets ov5640/LPR_PROJ/car_id_0_o_de] [get_bd_cells ov5640/LPR_PROJ/binary_image_swell_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:binary_image_swell:1.0 ov5640/LPR_PROJ/binary_image_swell_0
+endgroup
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/binary_image_swell_0/data_out] [get_bd_pins ov5640/LPR_PROJ/binary_image_etch_0/data_in]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/binary_image_swell_0/data_out_en] [get_bd_pins ov5640/LPR_PROJ/binary_image_etch_0/data_in_en]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/binary_image_swell_0/data_in] [get_bd_pins ov5640/LPR_PROJ/car_id_0/skin_binary_image]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/binary_image_swell_0/data_in_en] [get_bd_pins ov5640/LPR_PROJ/car_id_0/o_de]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/binary_image_etch_0/clk] [get_bd_pins ov5640/LPR_PROJ/binary_image_swell_0/clk]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/binary_image_etch_0/rst_n] [get_bd_pins ov5640/LPR_PROJ/binary_image_swell_0/rst_n]
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+delete_bd_objs [get_bd_nets ov5640/LPR_PROJ/car_id_0_skin_binary_image] [get_bd_nets ov5640/LPR_PROJ/car_id_0_o_de] [get_bd_cells ov5640/LPR_PROJ/binary_image_swell_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:binary_image_swell:1.0 ov5640/LPR_PROJ/binary_image_swell_0
+endgroup
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/binary_image_swell_0/data_in] [get_bd_pins ov5640/LPR_PROJ/car_id_0/skin_binary_image]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/binary_image_swell_0/data_in_en] [get_bd_pins ov5640/LPR_PROJ/car_id_0/o_de]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/binary_image_swell_0/data_out] [get_bd_pins ov5640/LPR_PROJ/binary_image_etch_0/data_in]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/binary_image_swell_0/data_out_en] [get_bd_pins ov5640/LPR_PROJ/binary_image_etch_0/data_in_en]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/vid_io_out_clk_25M] [get_bd_pins ov5640/LPR_PROJ/binary_image_swell_0/clk]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/reset_n] [get_bd_pins ov5640/LPR_PROJ/binary_image_swell_0/rst_n]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/reset_n] [get_bd_pins ov5640/LPR_PROJ/binary_image_etch_0/rst_n]
+connect_bd_net [get_bd_pins ov5640/LPR_PROJ/vid_io_out_clk_25M] [get_bd_pins ov5640/LPR_PROJ/binary_image_etch_0/clk]
+save_bd_design
+report_ip_status -name ip_status 
+make_wrapper -files [get_files v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_binary_image_etch_0_1/m3_for_arty_a7_binary_image_etch_0_1.xci] -top -fileset [get_filesets sources_1] -import
+make_wrapper -files [get_files V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -top
+generate_target all [get_files  V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd]
+export_ip_user_files -of_objects [get_files V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -directory V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files/sim_scripts -ip_user_files_dir V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files -ipstatic_source_dir V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files/ipstatic -lib_map_path [list {modelsim=V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/modelsim} {questa=V:/precompiled_sim_libs} {riviera=V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/riviera} {activehdl=V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+set_property source_mgmt_mode All [current_project]
+set_property location {1 357 291} [get_bd_cells ov5640/LPR_PROJ/swell_etch/binary_image_etch_1]
+save_bd_design
+make_wrapper -files [get_files V:/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -top
+set_property location {1 347 169} [get_bd_cells ov5640/LPR_PROJ/swell_etch/binary_image_etch_1]
+save_bd_design
+report_ip_status -name ip_status 
+ipx::edit_ip_in_project -upgrade true -name binary_image_etch_v1_0_project -directory V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.tmp/binary_image_etch_v1_0_project v:/vivado/Arm_ipi_repository/binary_image_etch/component.xml
+update_compile_order -fileset sources_1
+update_ip_catalog
+set_property core_revision 3 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path v:/vivado/Arm_ipi_repository

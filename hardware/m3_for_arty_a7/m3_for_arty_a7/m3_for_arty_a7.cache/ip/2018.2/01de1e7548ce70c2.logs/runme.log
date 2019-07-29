@@ -1,0 +1,312 @@
+
+*** Running vivado
+    with args -log m3_for_arty_a7_car_id_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source m3_for_arty_a7_car_id_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source m3_for_arty_a7_car_id_0_0.tcl -notrace
+Command: synth_design -top m3_for_arty_a7_car_id_0_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12492 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 468.598 ; gain = 99.125
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'm3_for_arty_a7_car_id_0_0' [v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_car_id_0_0/synth/m3_for_arty_a7_car_id_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'car_id' [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/0817/src/car_id.v:3]
+	Parameter Y_LOW bound to: 0 - type: integer 
+	Parameter Y_HIGH bound to: 100 - type: integer 
+	Parameter CB_LOW bound to: 90 - type: integer 
+	Parameter CB_HIGH bound to: 230 - type: integer 
+	Parameter CR_LOW bound to: 100 - type: integer 
+	Parameter CR_HIGH bound to: 170 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'car_id' (1#1) [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/0817/src/car_id.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'm3_for_arty_a7_car_id_0_0' (2#1) [v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_car_id_0_0/synth/m3_for_arty_a7_car_id_0_0.v:58]
+WARNING: [Synth 8-3331] design car_id has unconnected port i_ycbcr[23]
+WARNING: [Synth 8-3331] design car_id has unconnected port i_ycbcr[22]
+WARNING: [Synth 8-3331] design car_id has unconnected port i_ycbcr[21]
+WARNING: [Synth 8-3331] design car_id has unconnected port i_ycbcr[20]
+WARNING: [Synth 8-3331] design car_id has unconnected port i_ycbcr[19]
+WARNING: [Synth 8-3331] design car_id has unconnected port i_ycbcr[18]
+WARNING: [Synth 8-3331] design car_id has unconnected port i_ycbcr[17]
+WARNING: [Synth 8-3331] design car_id has unconnected port i_ycbcr[16]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 523.684 ; gain = 154.211
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 523.684 ; gain = 154.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 523.684 ; gain = 154.211
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraint will be written out.
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.144 . Memory (MB): peak = 842.883 ; gain = 2.188
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 842.883 ; gain = 473.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 842.883 ; gain = 473.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 842.883 ; gain = 473.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:32 . Memory (MB): peak = 842.883 ; gain = 473.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module car_id 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design m3_for_arty_a7_car_id_0_0 has unconnected port i_ycbcr[23]
+WARNING: [Synth 8-3331] design m3_for_arty_a7_car_id_0_0 has unconnected port i_ycbcr[22]
+WARNING: [Synth 8-3331] design m3_for_arty_a7_car_id_0_0 has unconnected port i_ycbcr[21]
+WARNING: [Synth 8-3331] design m3_for_arty_a7_car_id_0_0 has unconnected port i_ycbcr[20]
+WARNING: [Synth 8-3331] design m3_for_arty_a7_car_id_0_0 has unconnected port i_ycbcr[19]
+WARNING: [Synth 8-3331] design m3_for_arty_a7_car_id_0_0 has unconnected port i_ycbcr[18]
+WARNING: [Synth 8-3331] design m3_for_arty_a7_car_id_0_0 has unconnected port i_ycbcr[17]
+WARNING: [Synth 8-3331] design m3_for_arty_a7_car_id_0_0 has unconnected port i_ycbcr[16]
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[0]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[1]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[2]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[3]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[4]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[5]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[6]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[7]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[8]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[9]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[10]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[11]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[12]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[13]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[14]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[15]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[16]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[17]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[18]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[19]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[20]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[21]' (FDC) to 'inst/skin_binary_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/skin_binary_r_reg[22]' (FDC) to 'inst/skin_binary_r_reg[23]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 842.883 ; gain = 473.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:01:02 . Memory (MB): peak = 855.805 ; gain = 486.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:01:02 . Memory (MB): peak = 855.953 ; gain = 486.480
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:01:02 . Memory (MB): peak = 866.398 ; gain = 496.926
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:01:05 . Memory (MB): peak = 866.398 ; gain = 496.926
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:01:05 . Memory (MB): peak = 866.398 ; gain = 496.926
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:01:05 . Memory (MB): peak = 866.398 ; gain = 496.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:01:05 . Memory (MB): peak = 866.398 ; gain = 496.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:01:05 . Memory (MB): peak = 866.398 ; gain = 496.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:01:05 . Memory (MB): peak = 866.398 ; gain = 496.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT3 |     1|
+|3     |LUT4 |    49|
+|4     |LUT5 |     3|
+|5     |LUT6 |     3|
+|6     |FDCE |    49|
+|7     |FDRE |     3|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   109|
+|2     |  inst   |car_id |   109|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:01:05 . Memory (MB): peak = 866.398 ; gain = 496.926
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:49 . Memory (MB): peak = 866.398 ; gain = 177.727
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:01:06 . Memory (MB): peak = 866.398 ; gain = 496.926
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:01:10 . Memory (MB): peak = 879.156 ; gain = 521.152
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.runs/m3_for_arty_a7_car_id_0_0_synth_1/m3_for_arty_a7_car_id_0_0.dcp' has been generated.

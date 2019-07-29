@@ -1,0 +1,4 @@
+NumberHits:2
+Timestamp: Tue Jul 16 10:55:21 UTC 2019
+VLNV: xilinx.com:user:Vertical_Projection8:1.0
+SynthRuntime: 267

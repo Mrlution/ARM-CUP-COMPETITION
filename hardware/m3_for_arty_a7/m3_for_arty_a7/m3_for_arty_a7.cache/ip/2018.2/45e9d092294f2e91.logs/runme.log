@@ -1,0 +1,283 @@
+
+*** Running vivado
+    with args -log m3_for_arty_a7_rgb2vga_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source m3_for_arty_a7_rgb2vga_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source m3_for_arty_a7_rgb2vga_0_0.tcl -notrace
+Command: synth_design -top m3_for_arty_a7_rgb2vga_0_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13100 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 469.609 ; gain = 100.219
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'm3_for_arty_a7_rgb2vga_0_0' [v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_rgb2vga_0_0/synth/m3_for_arty_a7_rgb2vga_0_0.vhd:71]
+	Parameter VID_IN_DATA_WIDTH bound to: 24 - type: integer 
+	Parameter kRedDepth bound to: 4 - type: integer 
+	Parameter kGreenDepth bound to: 4 - type: integer 
+	Parameter kBlueDepth bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'rgb2vga' declared at 'v:/hardware/m3_for_arty_a7/block_diagram/ipshared/69dc/src/rgb2vga.vhd:58' bound to instance 'U0' of component 'rgb2vga' [v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_rgb2vga_0_0/synth/m3_for_arty_a7_rgb2vga_0_0.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'rgb2vga' [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/69dc/src/rgb2vga.vhd:81]
+	Parameter VID_IN_DATA_WIDTH bound to: 24 - type: integer 
+	Parameter kRedDepth bound to: 4 - type: integer 
+	Parameter kGreenDepth bound to: 4 - type: integer 
+	Parameter kBlueDepth bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'rgb2vga' (1#1) [v:/hardware/m3_for_arty_a7/block_diagram/ipshared/69dc/src/rgb2vga.vhd:81]
+INFO: [Synth 8-256] done synthesizing module 'm3_for_arty_a7_rgb2vga_0_0' (2#1) [v:/hardware/m3_for_arty_a7/block_diagram/ip/m3_for_arty_a7_rgb2vga_0_0/synth/m3_for_arty_a7_rgb2vga_0_0.vhd:71]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 524.078 ; gain = 154.688
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 524.078 ; gain = 154.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 524.078 ; gain = 154.688
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraint will be written out.
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.131 . Memory (MB): peak = 813.090 ; gain = 2.504
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 813.090 ; gain = 443.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 813.090 ; gain = 443.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 813.090 ; gain = 443.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:39 . Memory (MB): peak = 813.090 ; gain = 443.699
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module rgb2vga 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3332] Sequential element (U0/int_pData_reg[19]) is unused and will be removed from module m3_for_arty_a7_rgb2vga_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/int_pData_reg[18]) is unused and will be removed from module m3_for_arty_a7_rgb2vga_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/int_pData_reg[17]) is unused and will be removed from module m3_for_arty_a7_rgb2vga_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/int_pData_reg[16]) is unused and will be removed from module m3_for_arty_a7_rgb2vga_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/int_pData_reg[11]) is unused and will be removed from module m3_for_arty_a7_rgb2vga_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/int_pData_reg[10]) is unused and will be removed from module m3_for_arty_a7_rgb2vga_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/int_pData_reg[9]) is unused and will be removed from module m3_for_arty_a7_rgb2vga_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/int_pData_reg[8]) is unused and will be removed from module m3_for_arty_a7_rgb2vga_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/int_pData_reg[3]) is unused and will be removed from module m3_for_arty_a7_rgb2vga_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/int_pData_reg[2]) is unused and will be removed from module m3_for_arty_a7_rgb2vga_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/int_pData_reg[1]) is unused and will be removed from module m3_for_arty_a7_rgb2vga_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/int_pData_reg[0]) is unused and will be removed from module m3_for_arty_a7_rgb2vga_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:41 . Memory (MB): peak = 813.090 ; gain = 443.699
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:01:05 . Memory (MB): peak = 855.906 ; gain = 486.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:01:05 . Memory (MB): peak = 855.906 ; gain = 486.516
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:48 ; elapsed = 00:01:05 . Memory (MB): peak = 865.438 ; gain = 496.047
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:01:08 . Memory (MB): peak = 865.438 ; gain = 496.047
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:01:08 . Memory (MB): peak = 865.438 ; gain = 496.047
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:50 ; elapsed = 00:01:08 . Memory (MB): peak = 865.438 ; gain = 496.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:50 ; elapsed = 00:01:08 . Memory (MB): peak = 865.438 ; gain = 496.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:01:08 . Memory (MB): peak = 865.438 ; gain = 496.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:50 ; elapsed = 00:01:08 . Memory (MB): peak = 865.438 ; gain = 496.047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |FDRE |    14|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+--------+------+
+|      |Instance |Module  |Cells |
++------+---------+--------+------+
+|1     |top      |        |    15|
+|2     |  U0     |rgb2vga |    15|
++------+---------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:01:08 . Memory (MB): peak = 865.438 ; gain = 496.047
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:46 . Memory (MB): peak = 865.438 ; gain = 207.035
+Synthesis Optimization Complete : Time (s): cpu = 00:00:50 ; elapsed = 00:01:08 . Memory (MB): peak = 865.438 ; gain = 496.047
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:01:13 . Memory (MB): peak = 880.395 ; gain = 522.477
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.runs/m3_for_arty_a7_rgb2vga_0_0_synth_1/m3_for_arty_a7_rgb2vga_0_0.dcp' has been generated.

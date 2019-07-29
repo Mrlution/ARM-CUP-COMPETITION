@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Tue May 28 15:30:23 UTC 2019
+VLNV: xilinx.com:user:one_char_read_40bit:1.0
+SynthRuntime: 51
