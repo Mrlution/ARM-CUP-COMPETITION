@@ -2,7 +2,7 @@
 _An on-chip system was built on the FPGA development board NEXYS A7-100T with DDR2 using Arm Cortex-M3 DesignStart processor. The CMOS sensor OV5640 is used as an image acquisition peripheral, and DDR2 is used as an image buffer through VDMA to realize image acquisition. Using the characteristics of each number, the license plate in the image are detected and identified by a hardware algorithm. The processed result is returned to the ARM system on chip, and fed back to the hardware SPI-driven screen through the ARM system on chip to realize the human-computer interaction function._   
 
 ****
-### Here are some simple introduction of the floders in project.    
+### Introduction .    
 **docs**   
 Some introduction about how Clock ,Reset and CM3 Processor modules work and how to use **VIVADO & Keil** transplant ARM CM3 Kernel to FPGA via designstart ,containing how to debug and verify the project through CMSIS-DAPLINK   
 
